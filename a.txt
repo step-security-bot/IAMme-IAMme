@@ -1,3 +1,0 @@
-AKIAIOSFODNN7EXAMPLE
-
-password = "password"
