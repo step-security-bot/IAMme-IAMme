@@ -1,4 +1,4 @@
-FROM golang:alpine as app-builder
+FROM golang:alpine@sha256:0466223b8544fb7d4ff04748acc4d75a608234bf4e79563bff208d2060c0dd79 as app-builder
 WORKDIR /go/src/app
 RUN --mount=type=cache,target=/go/pkg/mod/ \
     --mount=type=bind,source=go.sum,target=go.sum \
